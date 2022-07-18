@@ -30,7 +30,7 @@ jobs:
       with:
        image: vipul026/springboot-image-new
        tags: latest
-       registry: registry-url.io
+       registry: docker.io
        dockerfile: Dockerfile
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
